@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Platformer</title>
+</head>
+
+<body>
+    <header>
+        <h3>Platformer</h3>
+        <button id="playPause" onclick="playPause()">Pause<span>(Esc)</span></button>
+        <button id="reset" onclick="resetGame()">Reset<span>(r)</span></button>
+    </header>
+
+    <div id="gameArea">
+        <div id="score">Score</div>
+        <div id="pauseMenu">
+            <p>Pause</p>
+        </div>
+        <canvas id="canvas" width="960" height="540"></canvas>
+    </div>
+
+    <script src="canvas.js"></script>
+</body>
+
+</html>

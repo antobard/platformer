@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background: rgb(41, 37, 37);
+}
+
+#gameArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+#pauseMenu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    background: rgba(151, 70, 70, 0.8);
+    box-shadow: 0 0 30px 5px rgba(94, 42, 42, 0.8);
+    box-sizing: border-box;
+    border: 7px solid rgba(211, 147, 64, 0.8);
+    border-radius: 5%;
+    color: whitesmoke;
+}
+
+
+#canvas {
+    background: LightBlue;
+    /* cursor: none; */
+}
